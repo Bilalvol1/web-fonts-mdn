@@ -2,16 +2,33 @@
 
 
 
-@font-face {
+/* @font-face {
     font-family: 'alex_brushregular';
     src: url('fonts/alexbrush-regular-webfont.woff2') format('woff2'),
          url('fonts/alexbrush-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
+} */
+
+
+.roboto-test {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 120;
 }
 
-
+.open-sans-test {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 /* General setup */
 
